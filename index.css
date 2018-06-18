@@ -1,0 +1,18 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 2fr 2fr;
+  grid-gap: 10px 10px;
+}
+
+.box {
+  border: solid;
+}
+
+.a {
+  grid-column: 1 / span 2;
+}
+
+.d {
+  grid-column: 1 / span 2;
+}
